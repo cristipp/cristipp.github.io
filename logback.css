@@ -1,13 +1,9 @@
 <style  type="text/css">
-  TR.even, TR.odd {
-    font-family: monospace;
-    white-space: pre;
-  }
   table { margin-left: 2em; margin-right: 2em; border-left: 2px solid #AAA; }
   TR.even { background: #FFFFFF; }
   TR.odd { background: #EAEAEA; }
   TR.warn TD.Level, TR.error TD.Level, TR.fatal TD.Level {font-weight: bold; color: #FF4040 }
-  TD { padding-right: 1ex; padding-left: 1ex; border-right: 2px solid #AAA; }
+  TD { padding-right: 1ex; padding-left: 1ex; border-right: 2px solid #AAA; font-family: monospace; white-space: pre; }
   TD.Time, TD.Date { text-align: right; font-family: courier, monospace; font-size: smaller; }
   TD.Thread { text-align: left; }
   TD.Level { text-align: right; }
