@@ -1,4 +1,8 @@
 <style  type="text/css">
+  TR.even, TR.odd {
+    font-family: monospace;
+    white-space: pre;
+  }
   table { margin-left: 2em; margin-right: 2em; border-left: 2px solid #AAA; }
   TR.even { background: #FFFFFF; }
   TR.odd { background: #EAEAEA; }
